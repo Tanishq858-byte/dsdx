@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Ignite Code — Student Startup Ideas</title>
+  <meta name="description" content="A platform for students to spark startup ideas, collaborate, and win awards." />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="icon" href="logo.png" type="image/png">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Orbitron:wght@500;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity=""
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header role="banner" aria-label="Main header">
+    <div class="container nav-container">
+      <!-- Left: Logo -->
+      <div class="logo" aria-hidden="false">
+        <img src="logo.png" alt="Ignite Code logo" class="logo-img">
+        <span class="brand"><a href="" style="color: inherit; text-decoration: none;">Ignite Code</a></span>
+      </div>
+
+      <!-- Center: Navigation Links -->
+      <nav class="nav-links" role="navigation" aria-label="Primary">
+        <a href="#home">Home</a>
+        <a href="#features">How it works</a>
+        <a href="#our-impact">Our Impact</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#developers">Developers</a>
+        <a href="#register">Register</a>
+      </nav>
+
+      <!-- Mobile Menu Button -->
+
+    </div>
+  </header>
+  <main id="main">
+    <!-- Hero -->
+    <section class="hero" id="home">
+      <div class="container hero-inner">
+        <h1 id="hero-title" class="display-head flicker"></h1>
+        <p class="lead">Ignite Code helps students spark bold startup ideas, solve real problems, and connect with
+          mentors to build real impact.</p>
+        <div class="hero-buttons">
+          <a href="#register" class="cta-button">Get Started</a>
+          <a href="https://www.youtube.com/watch?v=B83bOI5439U" target="_blank" class="button" id="learnMore">Learn
+            More</a>
+        </div>
+      </div>
+      <div class="hero-decor"></div>
+    </section>
+
+
+    <!-- Features -->
+    <section class="features" id="features" aria-labelledby="features-title">
+      <div class="container">
+        <div class="section-title">
+          <h2 id="features-title" class="flicker">How It Works</h2>
+          <p>Transform sparks of ideas into blazing impact — simple, visual, and community-driven.</p>
+        </div>
+
+        <div class="features-grid" role="list">
+          <article class="feature-card" role="listitem">
+            <div class="feature-icon" aria-hidden="true"><i class="fas fa-lightbulb"></i></div>
+            <h3>Submit Your Idea</h3>
+            <p>Share the problem, the solution, and why it matters — it only takes a minute.</p>
+          </article>
+
+          <article class="feature-card" role="listitem">
+            <div class="feature-icon" aria-hidden="true"><i class="fas fa-globe"></i></div>
+            <h3>Get Discovered</h3>
+            <p>Ideas are surfaced to the community, mentors, and collaborators who can help.</p>
+          </article>
+
+          <article class="feature-card" role="listitem">
+            <div class="feature-icon" aria-hidden="true"><i class="fas fa-users"></i></div>
+            <h3>Collaborate</h3>
+            <p>Find co-founders and mentors to iterate and prototype quickly.</p>
+          </article>
+
+          <article class="feature-card" role="listitem">
+            <div class="feature-icon" aria-hidden="true"><i class="fas fa-chart-line"></i></div>
+            <h3>Track Progress</h3>
+            <p>Receive community feedback and track your idea's momentum.</p>
+          </article>
+
+          <article class="feature-card" role="listitem">
+            <div class="feature-icon" aria-hidden="true"><i class="fas fa-trophy"></i></div>
+            <h3>Win Awards</h3>
+            <p>Participate in challenges and secure funding for top ideas.</p>
+          </article>
+
+          <article class="feature-card" role="listitem">
+            <div class="feature-icon" aria-hidden="true"><i class="fas fa-graduation-cap"></i></div>
+            <h3>Learn & Grow</h3>
+            <p>Workshops and resources to accelerate your entrepreneurial skills.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Stats -->
+    <section class="our-impact" id="our-impact" aria-labelledby="stats-title">
+      <div class="container">
+        <div class="section-title">
+          <h2 id="stats-title" class="flicker">Our Impact</h2>
+          <p>Numbers that show our momentum and community reach.</p>
+        </div>
+
+        <div class="stats-grid">
+          <div class="stat-item">
+            <div class="stat-number" id="ideasCount" aria-hidden="true">0</div>
+            <div class="stat-label">Ideas Submitted</div>
+          </div>
+
+          <div class="stat-item">
+            <div class="stat-number" id="startupsCount" aria-hidden="true">0</div>
+            <div class="stat-label">Startups Launched</div>
+          </div>
+
+          <div class="stat-item">
+            <div class="stat-number" id="membersCount" aria-hidden="true">0</div>
+            <div class="stat-label">Community Members</div>
+          </div>
+
+          <div class="stat-item">
+            <div class="stat-number" id="countriesCount" aria-hidden="true">0</div>
+            <div class="stat-label">Countries Reached</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials" id="testimonials" aria-labelledby="testimonials-title">
+      <div class="container">
+        <div class="section-title">
+          <h2 id="testimonials-title" class="flicker">What Innovators Say</h2>
+          <p>Stories from students who turned sparks into flames.</p>
+        </div>
+
+        <div class="testimonial-container">
+          <blockquote class="testimonial">
+            <p class="testimonial-text">Ignite Code gave me the chance to showcase my app idea. I connected with mentors
+              and built a prototype in weeks!</p>
+            <br>
+            <footer class="testimonial-author">— Sophia, 16</footer>
+          </blockquote>
+
+          <blockquote class="testimonial">
+            <p class="testimonial-text">Through Ignite Code, I found my co-founder and we've now secured our first round
+              of funding. This platform is amazing!</p>
+            <br>
+            <footer class="testimonial-author">— Marcus, 19</footer>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- Developers -->
+    <section class="developers" id="developers" aria-labelledby="dev-title">
+      <div class="container">
+        <div class="section-title">
+          <h2 id="dev-title" class="flicker">About the Developers</h2>
+          <p>The brilliant minds behind Ignite Code</p>
+        </div>
+
+        <div class="developers-grid">
+          <article class="developer-card">
+            <div class="developer-image">
+              <img src="Tanishq-develouper-details.jpg" alt="Tanishq Pal">
+            </div>
+            <h3>Tanishq Pal</h3>
+            <p class="muted">Full Stack Developer</p>
+            <p>Creating platforms that empower young innovators to change the world.</p>
+            <div class="developer-socials">
+              <a href="#" aria-label="GitHub"><i class="fab fa-github" aria-hidden="true"></i></a>
+              <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+              <a href="#" aria-label="X / Twitter"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+            </div>
+          </article>
+
+          <article class="developer-card">
+            <div class="developer-image">
+              <img src="Aryan-develouper-details.jpg" alt="Aryan Kaushik">
+            </div>
+            <h3>Aryan Kaushik</h3>
+            <p class="muted">UI/UX Designer</p>
+            <p>Believes great design bridges ideas and impact.</p>
+            <div class="developer-socials">
+              <a href="#" aria-label="GitHub"><i class="fab fa-github" aria-hidden="true"></i></a>
+              <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+              <a href="#" aria-label="X / Twitter"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+            </div>
+          </article>
+
+          <article class="developer-card">
+            <div class="developer-image">
+              <img src="Saksham-develouper-details.jpg" alt="Saksham Singh Parmar">
+            </div>
+            <h3>Saksham Singh Parmar</h3>
+            <p class="muted">Backend Developer</p>
+            <p>Builds robust systems that scale student ideas from concept to reality.</p>
+            <div class="developer-socials">
+              <a href="#" aria-label="GitHub"><i class="fab fa-github" aria-hidden="true"></i></a>
+              <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+              <a href="#" aria-label="X / Twitter"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Registration -->
+    <section class="registration" id="register" aria-labelledby="register-title">
+      <div class="container">
+        <div class="section-title">
+          <h2 id="register-title" class="flicker">Join Ignite Code</h2>
+          <p>Register to submit ideas and join our community.</p>
+        </div>
+
+        <div class="form-container">
+          <form id="registrationForm" novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="firstName">First Name</label>
+                <input autocomplete="given-name" type="text" id="firstName" name="firstName" required>
+              </div>
+
+              <div class="form-group">
+                <label for="lastName">Last Name</label>
+                <input autocomplete="family-name" type="text" id="lastName" name="lastName" required>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input autocomplete="email" type="email" id="email" name="email" required>
+            </div>
+
+            <div class="form-group">
+              <label for="password">Password</label>
+              <input autocomplete="new-password" type="password" id="password" name="password" required>
+            </div>
+
+            <div class="form-group">
+              <label for="educationLevel">Education Level</label>
+              <select id="educationLevel" name="educationLevel" required>
+                <option value="">Select your education level</option>
+                <option value="highschool">High School</option>
+                <option value="undergraduate">Undergraduate</option>
+                <option value="graduate">Graduate</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="interests">Areas of Interest (Select up to 3)</label>
+              <select id="interests" name="interests" multiple>
+                <option value="tech">Technology</option>
+                <option value="sustainability">Sustainability</option>
+                <option value="healthcare">Healthcare</option>
+                <option value="education">Education</option>
+                <option value="finance">Finance</option>
+                <option value="social">Social Impact</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="about">Tell us about yourself</label>
+              <textarea id="about" name="about" rows="4"></textarea>
+            </div>
+
+            <div class="form-group">
+              <label class="checkbox-inline">
+                <input type="checkbox" name="terms" required>
+                I agree to the <a href="#" class="link-accent">Terms and Conditions</a>
+              </label>
+            </div>
+
+            <button type="submit" class="cta-button full-width">Create Account</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta-section" aria-labelledby="cta-title">
+      <div class="container">
+        <h2 id="cta-title" class="flicker">Ready to Ignite Your Idea?</h2>
+        <p>Join hundreds of students who are already making a difference.</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer role="contentinfo">
+    <div class="container footer-container">
+      <div class="footer-column">
+        <h3 class="flicker">Company</h3>
+        <ul>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Press</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-column">
+        <h3 class="flicker">Products</h3>
+        <ul>
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">Features</a></li>
+          <li><a href="#">Integrations</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-column">
+        <h3 class="flicker">Support</h3>
+        <ul>
+          <li><a href="#">Help Center</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-column">
+        <h3 class="flicker">Connect</h3>
+        <ul>
+          <li><a href="#"><i class="fab fa-twitter" aria-hidden="true"></i> Twitter</a></li>
+          <li><a href="https://www.instagram.com/official_ignite_code/" target="_blank"><i class="fab fa-instagram"
+                aria-hidden="true"></i> Instagram</a></li>
+          <li><a href="#"><i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="footer-bottom">© 2025 Ignite Code. Made with love by the Ignite Code Team. 💖</p>
+
+    <!-- Hidden userList for legacy fallback (populated by JS) -->
+    <ul id="userList" style="display:none;"></ul>
+  </footer>
+
+  <!-- Idea Submission Modal (existing — JS will control visibility) -->
+  <div class="modal" id="ideaModal" role="dialog" aria-labelledby="ideaModalTitle" aria-hidden="true">
+    <div class="modal-content" role="document">
+      <button class="close-modal" aria-label="Close modal">&times;</button>
+      <h2 id="ideaModalTitle" class="flicker">Submit Your Idea</h2>
+      <p>Share your innovative startup idea with our community.</p>
+
+      <form id="ideaForm" class="idea-form" novalidate>
+        <div class="form-group">
+          <label for="ideaTitle">Idea Title</label>
+          <input type="text" id="ideaTitle" name="ideaTitle" required>
+        </div>
+
+        <div class="form-group">
+          <label for="ideaDescription">Description</label>
+          <textarea id="ideaDescription" name="ideaDescription" rows="4" required></textarea>
+        </div>
+
+        <div class="form-group">
+          <label for="ideaCategory">Category</label>
+          <select id="ideaCategory" name="ideaCategory" required>
+            <option value="">Select a category</option>
+            <option value="tech">Technology</option>
+            <option value="sustainability">Sustainability</option>
+            <option value="healthcare">Healthcare</option>
+            <option value="education">Education</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="ideaTags">Tags (comma separated)</label>
+          <input type="text" id="ideaTags" name="ideaTags" placeholder="Eco-friendly, Tech, AI">
+        </div>
+
+        <button type="submit" class="cta-button full-width">Submit Idea</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Notification area (fallback) -->
+  <div class="notification" id="notification" aria-live="polite" aria-atomic="true">
+    <span id="notificationText"></span>
+  </div>
+
+  <!-- Accessibility Widget (kept unchanged structure so JS finds elements) -->
+  <div class="accessibility-widget" aria-hidden="false">
+    <div class="widget-button" id="widgetToggle" aria-expanded="false" role="button" tabindex="0">
+      <i class="fas fa-universal-access" aria-hidden="true"></i>
+    </div>
+  </div>
+
+  <div id="otpModal" class="modal">
+    <div class="modal-content">
+      <h2>Email Verification</h2>
+      <p>An OTP has been sent to your email. Please enter it below to verify your email address.</p>
+      <input type="text" id="otpInput" placeholder="Enter OTP" maxlength="6">
+      <button id="verifyOtpBtn">Verify OTP</button>
+      <button class="cta-button" id="resendOtpBtn">Resend OTP</button>
+    </div>
+  </div>
+
+  <script src="script.js" defer></script>
+
+</body>
+
+</html>
